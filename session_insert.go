@@ -12,8 +12,8 @@ import (
 	"strconv"
 	"strings"
 
-	"xorm.io/builder"
-	"xorm.io/core"
+	"github.com/rover5269/builder"
+	"github.com/rover5269/core"
 )
 
 // Insert insert one or more beans

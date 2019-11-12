@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"strings"
 
-	"xorm.io/builder"
+	"github.com/rover5269/builder"
 )
 
 type ErrUnsupportedExprType struct {

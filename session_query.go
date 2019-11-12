@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"xorm.io/builder"
-	"xorm.io/core"
+	"github.com/rover5269/builder"
+	"github.com/rover5269/core"
 )
 
 func (session *Session) genQuerySQL(sqlOrArgs ...interface{}) (string, []interface{}, error) {

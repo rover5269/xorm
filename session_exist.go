@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"xorm.io/builder"
-	"xorm.io/core"
+	"github.com/rover5269/builder"
+	"github.com/rover5269/core"
 )
 
 // Exist returns true if the record exist otherwise return false

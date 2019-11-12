@@ -10,8 +10,8 @@ import (
 	"reflect"
 	"strings"
 
-	"xorm.io/builder"
-	"xorm.io/core"
+	"github.com/rover5269/builder"
+	"github.com/rover5269/core"
 )
 
 const (

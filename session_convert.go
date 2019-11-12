@@ -14,7 +14,7 @@ import (
 	"strings"
 	"time"
 
-	"xorm.io/core"
+	"github.com/rover5269/core"
 )
 
 func (session *Session) str2Time(col *core.Column, data string) (outTime time.Time, outErr error) {

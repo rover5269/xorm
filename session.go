@@ -14,7 +14,7 @@ import (
 	"strings"
 	"time"
 
-	"xorm.io/core"
+	"github.com/rover5269/core"
 )
 
 type sessionType int
